@@ -103,6 +103,15 @@
     text-align: center;
     row-gap: 40px;
   }
+
+  .footer_second ul{
+    text-align:start;
+    margin-left: 20px;
+  }
+
+  .footer_credit h3{
+    margin-block: 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
