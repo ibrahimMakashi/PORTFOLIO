@@ -372,7 +372,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   margin-top: 30px;
 }
@@ -431,6 +431,7 @@ header {
 }
 
 .contact_form_container{
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -456,11 +457,6 @@ header {
   max-width: 500px;
   min-height: 100px;
   max-height: 200px;
-  
-}
-
-.contact_submit{
-
 }
 
 .contact_inputs:focus{
@@ -476,9 +472,7 @@ header {
   color: white;
 }
 
-.footer_first{
-  width: 400px;
-}
+
 
 .footer_first p{
   margin-block: 20px;
