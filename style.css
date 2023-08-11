@@ -379,13 +379,22 @@ header {
 
 .project_card{
   background-image:url(./Asset/swiggy-food-delivery-1.jpg);
+  background-position: center;
   width: 350px;
   height: 250px;
-  background-size: cover;
+  background-size:cover;
   padding-top: 207px;
   transition: 0.3s all;
   overflow: hidden;
   border-radius: 10px;
+}
+
+.project_card:nth-child(1){
+  background-image:url(./Asset/protfolio.png);
+}
+
+.project_card:nth-child(2){
+  background-image: url(./Asset/USABILITY.png);
 }
 
 .project_card:hover{
